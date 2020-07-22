@@ -3,16 +3,20 @@ const Noticia = ({ noticia }) => {
 
     const { url, multimedia, title, abstract } = noticia;
 
-    console.log(noticia)
+    const imagen = (multimedia) ?
+        <img src={multimedia[3].url} alt={title} />
+        : null;
+
+
     return (
         <div className="col s12 m4 12">
             <div className="card">
                 <div className="card-image">
                     <div className="card-image">
-                        <img src={multimedia[0].url} alt={title} />
+                        {imagen}
                     </div>
                     <div className="card-content">
-                        <h6>{title}</h6>
+                        <h5>{title}</h5>
                         <span>{abstract}</span>
                     </div>
                     <div className="card-action">

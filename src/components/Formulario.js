@@ -5,7 +5,7 @@ import useSelect from "../hooks/useSelect";
 const Formulario = ({ setCategoria }) => {
 
     const OPCIONES = [
-        { value: "general", label: "General" },
+        { value: "world", label: "General" },
         { value: "business", label: "Negocios" },
         { value: "entertaiment", label: "Entretenimiento" },
         { value: "health", label: "Salud" },
@@ -14,7 +14,7 @@ const Formulario = ({ setCategoria }) => {
         { value: "technology", label: "Tecnologia" },
     ]
 
-    const [categoria, SelectNoticias] = useSelect("general", OPCIONES);
+    const [categoria, SelectNoticias] = useSelect("world", OPCIONES);
 
     const buscarNoticias = e => {
         e.preventDefault();

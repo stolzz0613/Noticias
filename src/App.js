@@ -15,21 +15,20 @@ function App() {
       console.log(noticias);
     }
     consultarAPI();
-  }
-}, [categoria])
+  }, [categoria]);
 
-return (
-  <Fragment>
-    <Header
-      titulo="Buscador de Noticias"
-    />
-    <div className="container white">
-      <Formulario
-        setCategoria={setCategoria}
+  return (
+    <Fragment>
+      <Header
+        titulo="Buscador de Noticias"
       />
-    </div>
-  </Fragment>
-);
+      <div className="container white">
+        <Formulario
+          setCategoria={setCategoria}
+        />
+      </div>
+    </Fragment>
+  );
 }
 
 export default App;

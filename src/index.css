@@ -1,0 +1,6 @@
+body{
+    background-image: url("./wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: scroll
+}

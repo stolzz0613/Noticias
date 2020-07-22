@@ -1,15 +1,26 @@
 .heading{
     font-family: "Raleway", sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
+    color:#ff7043;
+    margin:0px;
 }
 .buscador{
     margin-top: 2rem;
     margin-top: 2rem;
     text-align: left;
+    opacity: 0.8;
 }
 .btn_block{
     width: 100%;
+    background-color: #f6cd61;
+}
+.title{
+    color:#e65100;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0p;
+    font-family: 'Bungee Shade', cursive;
 }

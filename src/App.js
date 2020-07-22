@@ -23,7 +23,7 @@ function App() {
   return (
     <Fragment>
       <Header
-        titulo="Buscador de Noticias"
+        titulo="News look up"
       />
       <div className="container white">
         <Formulario

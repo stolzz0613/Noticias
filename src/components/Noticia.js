@@ -9,27 +9,27 @@ const Noticia = ({ noticia }) => {
 
 
     return (
-        <div className="col s12 m4 12">
-            <div className="card">
+
+        <div className="col s12 m4 10">
+            <div className="card large">
                 <div className="card-image">
-                    <div className="card-image">
-                        {imagen}
-                    </div>
-                    <div className="card-content">
-                        <h5>{title}</h5>
-                        <span>{abstract}</span>
-                    </div>
-                    <div className="card-action">
-                        <a
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="waves-effect waves-light btn"
-                        >Ver Noticia Completa</a>
-                    </div>
+                    {imagen}
+                </div>
+                <div className="card-content">
+                    <h5>{title}</h5>
+                    <span>{abstract}</span>
+                </div>
+                <div className="card-action">
+                    <a
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="waves-effect waves-light btn"
+                    >Ver Noticia Completa</a>
                 </div>
             </div>
         </div>
+
     );
 }
 
